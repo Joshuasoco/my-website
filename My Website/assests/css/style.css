@@ -7,61 +7,76 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    width: 100%;
-    background-color: rgba(199, 231, 189, 0.629);
+    width: 100%; 
+    
 }
 
 .index-body {
-    
+   background-color: #465048aa;
 }
 .index-header {
     display: flex;
     align-items: center;
     justify-content: end;
     width: 100%;
-    height: 40px;
-    background-color: rgba(199, 231, 189, 0.859);
-    border-bottom: 1px solid rgba(116, 135, 110, 0.859);
+    height: 50px;
+    border-bottom: 1px solid rgb(59, 72, 62);
+    background-color: rgb(59, 72, 62);
+    
 }
 .header-list{
     list-style-type: none;
     overflow: hidden;
     align-items: end;
+    
 }
-
 
 li{
     float: left;
     margin: 10px;
 }
 li button{
-    background-color: rgba(199, 231, 189, 0.859);
     border: 0cap;
     border-radius: 5px;
     padding: 8px;
     width: 70px;
     height: 100%;
-    transition: transform 0.5s ease-in-out;
+    background-color: rgb(59, 72, 62);
+    transition: transform 0.3s ease-in-out;
 }
 
 li button:hover {
     transform: scale(1.1); 
-    background-color: rgb(12, 171, 12);
     box-shadow: 0 0 5px #04f548;
 }
 li button:hover::after{
     transform: scale(0);
     
 }
-    
+li img{
+    height: 10vh;
+    width: 10px;
+}
 li a{
     text-decoration: none;
     font-size: 15px;
+    font-weight: bold;
     color: rgb(0, 0, 0);
-    
+    font-family: monospace;
 }
 
+.hero-container{
+    height: 500px;
+    width: 100%;
+}
 
-.footer{
+div img{
+    height: 500px;
+    width: 100%;
+}
 
+.descrip{
+    height: 500px;
+    width: 100%;
+    
 }
