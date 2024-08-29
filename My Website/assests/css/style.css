@@ -80,7 +80,6 @@ li button:hover {
 }
 li button:hover::after{
     transform: scale(0);
-    
 }
 
 .footer{
