@@ -1,0 +1,8 @@
+@import "tailwindcss";
+.x-hover:hover svg {
+
+  stroke: #e63946; /* change color on hover */
+  cursor: pointer;
+  transform: scale(1.1); /* optional zoom */
+  transition: all 0.2s ease;
+}
